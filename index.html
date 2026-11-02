@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FinaPlan منصة تعريفية لدعم التخطيط المالي للمؤسسات الصغيرة والمتوسطة في الجزائر.">
+  <title>FinaPlan | التخطيط المالي بوضوح</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="FinaPlan home">
+      <span class="brand-mark">F</span><span>Fina<span class="brand-accent">Plan</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">عن المنصة</a>
+      <a href="#services" data-i18n="navServices">ماذا نقدم؟</a>
+      <a href="#steps" data-i18n="navSteps">كيف تعمل؟</a>
+      <a href="#contact" data-i18n="navContact">اتصل بنا</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle" type="button" aria-label="Change language">FR</button>
+      <a class="button button-small" href="#contact" data-i18n="navCta">اكتشف المنصة</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">حلول مالية للمؤسسات الجزائرية</span></span>
+        <h1 data-i18n="heroTitle">خطّط بوضوح.<br><span>واتخذ قرارات بثقة.</span></h1>
+        <p class="hero-description" data-i18n="heroText">FinaPlan منصة تعريفية تهدف إلى مساعدة المؤسسات الصغيرة والمتوسطة على فهم التخطيط المالي وتنظيم الميزانيات ومتابعة الأداء المالي بصورة أوضح.</p>
+        <div class="hero-actions">
+          <a class="button" href="#services" data-i18n="heroPrimary">اكتشف الخدمات <span aria-hidden="true">←</span></a>
+          <a class="text-link" href="#about" data-i18n="heroSecondary">تعرّف على FinaPlan <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="check">✓</span><span data-i18n="heroNote">تصوّر رقمي مبسّط يناسب احتياجات المؤسسات المحلية</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustrative financial dashboard">
+        <div class="visual-glow"></div>
+        <div class="dashboard-card">
+          <div class="dash-top">
+            <div><span class="mini-label" data-i18n="dashLabel">نظرة عامة مالية</span><h3 data-i18n="dashTitle">ملخص الميزانية</h3></div>
+            <span class="period" data-i18n="dashPeriod">مثال توضيحي</span>
+          </div>
+          <div class="metric-row">
+            <div class="metric"><span data-i18n="metricOne">الميزانية المخططة</span><strong>2,000,000 <small>دج</small></strong><em class="positive" data-i18n="metricTag">خطة سنوية</em></div>
+            <div class="metric"><span data-i18n="metricTwo">النفقات المسجلة</span><strong>1,200,000 <small>دج</small></strong><em class="neutral" data-i18n="metricTag2">بيانات افتراضية</em></div>
+          </div>
+          <div class="chart-head"><span data-i18n="chartTitle">مقارنة الميزانية</span><span data-i18n="chartLegend">المخطط / الفعلي</span></div>
+          <div class="bar-chart" aria-hidden="true">
+            <div class="bar-group"><div class="bar bar-plan" style="height:76%"></div><div class="bar bar-actual" style="height:52%"></div><span data-i18n="chartA">الربع 1</span></div>
+            <div class="bar-group"><div class="bar bar-plan" style="height:88%"></div><div class="bar bar-actual" style="height:61%"></div><span data-i18n="chartB">الربع 2</span></div>
+            <div class="bar-group"><div class="bar bar-plan" style="height:65%"></div><div class="bar bar-actual" style="height:43%"></div><span data-i18n="chartC">الربع 3</span></div>
+            <div class="bar-group"><div class="bar bar-plan" style="height:93%"></div><div class="bar bar-actual" style="height:66%"></div><span data-i18n="chartD">الربع 4</span></div>
+          </div>
+          <div class="chart-legend"><span><i class="legend-plan"></i><span data-i18n="planned">المخطط</span></span><span><i class="legend-actual"></i><span data-i18n="actual">الفعلي</span></span></div>
+          <div class="dash-footer"><span class="status-dot"></span><span data-i18n="dashFooter">واجهة تجريبية بأرقام افتراضية</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">↗</span><span><b data-i18n="chipTop">تخطيط أفضل</b><small data-i18n="chipTopSub">رؤية مالية أوضح</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon coin">دج</span><span><b data-i18n="chipBottom">تحكم في الميزانية</b><small data-i18n="chipBottomSub">مقارنة المخطط بالفعلي</small></span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span class="strip-symbol">◎</span><span data-i18n="strip1">وضوح مالي</span></div>
+      <div><span class="strip-symbol">▤</span><span data-i18n="strip2">تنظيم الميزانية</span></div>
+      <div><span class="strip-symbol">↗</span><span data-i18n="strip3">دعم القرار</span></div>
+      <div><span class="strip-symbol">⌂</span><span data-i18n="strip4">مناسبة للمؤسسات المحلية</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="aboutEyebrow">عن FinaPlan</span>
+        <h2 data-i18n="aboutTitle">التخطيط المالي يبدأ من <span>رؤية واضحة.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p data-i18n="aboutText">تعرّف على مبادئ التخطيط المالي وكيف يمكن للمؤسسات الصغيرة والمتوسطة تنظيم توقعاتها المالية، وتحديد أولويات الإنفاق، ومقارنة النتائج بالأهداف. صُممت FinaPlan كفكرة منصة رقمية مبسطة تراعي احتياجات بيئة الأعمال المحلية في الجزائر.</p>
+        <div class="about-callout"><span class="callout-mark">“</span><p data-i18n="callout">الهدف ليس تسجيل الأرقام فقط، بل تحويلها إلى معلومات تساعد المؤسسة على التخطيط واتخاذ القرار.</p></div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading centered">
+        <span class="eyebrow" data-i18n="servicesEyebrow">ما الذي تدعمه المنصة؟</span>
+        <h2 data-i18n="servicesTitle">أدوات تساعدك على <span>رؤية الصورة كاملة.</span></h2>
+        <p data-i18n="servicesIntro">محاور أساسية يمكن أن تدعمها المنصة في تطويرها المستقبلي.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon blue">▦</div><h3 data-i18n="service1Title">إعداد الميزانية</h3><p data-i18n="service1Text">تنظيم الإيرادات والنفقات المتوقعة ضمن ميزانية شهرية أو سنوية.</p><span class="card-number">01</span></article>
+        <article class="service-card"><div class="service-icon mint">↔</div><h3 data-i18n="service2Title">تخطيط التدفقات النقدية</h3><p data-i18n="service2Text">فهم توقيت الأموال الداخلة والخارجة والاستعداد للاحتياجات المحتملة.</p><span class="card-number">02</span></article>
+        <article class="service-card"><div class="service-icon violet">▥</div><h3 data-i18n="service3Title">مقارنة المخطط بالفعلي</h3><p data-i18n="service3Text">ملاحظة الفروقات بين التقديرات المالية والنتائج المسجلة.</p><span class="card-number">03</span></article>
+        <article class="service-card"><div class="service-icon amber">◷</div><h3 data-i18n="service4Title">متابعة الأداء المالي</h3><p data-i18n="service4Text">عرض مؤشرات مبسطة تساعد على مراجعة الخطة المالية دوريًا.</p><span class="card-number">04</span></article>
+        <article class="service-card"><div class="service-icon rose">▤</div><h3 data-i18n="service5Title">تقارير أوضح</h3><p data-i18n="service5Text">تقديم المعلومات المالية بطريقة منظمة تسهّل النقاش واتخاذ القرار.</p><span class="card-number">05</span></article>
+        <article class="service-card featured-card"><div class="service-icon white">✦</div><h3 data-i18n="service6Title">تخطيط يدعم النمو</h3><p data-i18n="service6Text">ربط الأولويات المالية بأهداف المؤسسة وخططها المستقبلية.</p><span class="card-number">06</span></article>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="steps">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="stepsEyebrow">منهجية التخطيط</span>
+        <h2 data-i18n="stepsTitle">أربع خطوات نحو <span>تخطيط مالي أفضل.</span></h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step"><span class="step-index">01</span><h3 data-i18n="step1Title">فهم الوضع الحالي</h3><p data-i18n="step1Text">جمع صورة واضحة عن الإيرادات والنفقات والالتزامات.</p></div>
+        <div class="step"><span class="step-index">02</span><h3 data-i18n="step2Title">تحديد الأهداف</h3><p data-i18n="step2Text">تحديد أولويات المؤسسة والنتائج المالية المنشودة.</p></div>
+        <div class="step"><span class="step-index">03</span><h3 data-i18n="step3Title">إعداد الخطة</h3><p data-i18n="step3Text">تقدير الموارد وتوزيع الميزانية على الفترات والأنشطة.</p></div>
+        <div class="step"><span class="step-index">04</span><h3 data-i18n="step4Title">المراجعة والتقييم</h3><p data-i18n="step4Text">مقارنة النتائج بالخطة وتحديث التوقعات عند الحاجة.</p></div>
+      </div>
+    </section>
+
+    <section class="section audience-section">
+      <div class="audience-card">
+        <div class="audience-copy"><span class="eyebrow" data-i18n="audienceEyebrow">لمن صُممت الفكرة؟</span><h2 data-i18n="audienceTitle">حلول عملية للمؤسسات الصغيرة والمتوسطة.</h2><p data-i18n="audienceText">تستهدف FinaPlan أصحاب المؤسسات والمديرين ومسؤولي الإدارة والمالية الذين يريدون فهم التخطيط المالي بصورة منظمة، دون تعقيد غير ضروري.</p><a href="#contact" class="button button-light" data-i18n="audienceCta">تواصل معنا <span>←</span></a></div>
+        <div class="audience-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-center"><span>FP</span></div><div class="orbit-node node-one">دج</div><div class="orbit-node node-two">↗</div><div class="orbit-node node-three">%</div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <div><span class="eyebrow" data-i18n="contactEyebrow">ابقَ على تواصل</span><h2 data-i18n="contactTitle">هل ترغب في معرفة المزيد عن FinaPlan؟</h2><p data-i18n="contactText">يمكن تخصيص هذه المساحة لاحقًا لإضافة البريد الإلكتروني الرسمي أو نموذج تواصل عند إطلاق المشروع.</p></div>
+        <a class="button" href="mailto:contact@finaplan.example" data-i18n="contactCta">جهّز رسالة تواصل <span>↗</span></a>
+      </div>
+      <p class="demo-disclaimer" data-i18n="disclaimer">تنبيه: هذا موقع تعريفي تجريبي. الأرقام والرسوم المعروضة توضيحية فقط، ولا تمثل بيانات مالية حقيقية أو استشارة محاسبية.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">F</span><span>Fina<span class="brand-accent">Plan</span></span></a>
+    <p data-i18n="footerText">التخطيط المالي بوضوح، للمؤسسات التي تطمح إلى النمو.</p>
+    <span>© <span id="year"></span> FinaPlan</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
